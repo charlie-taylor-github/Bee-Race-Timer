@@ -1,0 +1,87 @@
+body {
+    background-color: #036268;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 5px solid white;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 2%;
+}
+
+p {
+    text-align: center;
+}
+
+.time {
+    width: 5%;
+    text-align: center;
+}
+
+form {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+    background-color: white;
+    padding: 2%;
+}
+
+#start {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 3%;
+}
+
+button {
+    text-align: center;
+}
+
+.btn-area {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.name {
+    width: 15%;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 2%;
+}
+
+textarea {
+    width: 30%;
+    height: 100%;
+    resize: none;
+}
+
+h3 {
+    display: inline;
+    background-color: white;
+}
+
+#areas {
+    background-color: #036268;
+    margin-top: 4%;
+}
+
+#leaderboard, #leaderboard-input {
+    float: right;
+}
+
+#names, #name-input {
+    float: left;
+}
+
+#name-input, #leaderboard-input {
+    margin-bottom: 5%;
+}
